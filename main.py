@@ -7,7 +7,7 @@ class App:
         self.root = Tk()
         self.root.title("Image Viewer")
         self.root.geometry(WINDOW_SIZE)
-
+        self.root.iconbitmap("logo.ico")
 
         self.display_label = Label(self.root, bg="black")
         self.display_label.pack(fill=BOTH, expand=True)
